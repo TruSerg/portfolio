@@ -52,7 +52,7 @@ html {
 
 .logo {
 	font-family: "Tourney", cursive;
-	font-size: 4rem;
+	font-size: 4.5rem;
 	font-weight: 800;
 }
 
@@ -313,6 +313,10 @@ html {
 	.works {
 		grid-template-columns: repeat(2, 1fr);
 	}
+
+	.skills__item svg {
+		max-width: 45%;
+	}
 }
 
 @media (max-width: 629.75px) {
@@ -343,10 +347,14 @@ html {
 	}
 
 	.logo {
-		font-size: 3.5rem;
+		font-size: 4rem;
 	}
 
 	.section__title {
 		font-size: 2.8rem;
+	}
+
+	.skills__item svg {
+		max-width: 30%;
 	}
 }
