@@ -62,6 +62,7 @@ html {
 }
 
 .section__title {
+	font-family: "Tourney", cursive;
 	font-size: 3.2rem;
 	font-weight: 700;
 	margin: 0 0 2rem;
@@ -235,17 +236,22 @@ html {
 
 .work--pass::before,
 .work--pass::after {
-	background: linear-gradient(235deg, #ff005e, #010615, #fbff00);
+	background: linear-gradient(235deg, #772aff, #010615, #2196f3);
 }
 
 .work--park::before,
 .work--park::after {
-	background: linear-gradient(235deg, #772aff, #010615, #2196f3);
+	background: linear-gradient(235deg, #00ffdd, #010615, #acb8eb);
 }
 
 .work--page::before,
 .work--page::after {
-	background: linear-gradient(235deg, #00ffdd, #010615, #acb8eb);
+	background: linear-gradient(235deg, #ae73e6, #010615, #775fe6);
+}
+
+.work--brella::before,
+.work--brella::after {
+	background: linear-gradient(235deg, #ff005e, #010615, #fbff00);
 }
 
 .work:hover {
