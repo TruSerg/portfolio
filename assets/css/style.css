@@ -229,29 +229,44 @@ html {
 	filter: blur(20px);
 }
 
-.work::before,
-.work::after {
+.work--pokemons::before,
+.work--pokemons::after {
 	background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+}
+
+.work--todo::before,
+.work--todo::after {
+	background: linear-gradient(235deg, #ff005e, #010615, #fbff00);
+}
+
+.work--table::before,
+.work--table::after {
+	background: linear-gradient(235deg, #00ffdd, #010615, #acb8eb);
+}
+
+.work--hungry::before,
+.work--hungry::after {
+	background: linear-gradient(235deg, #772aff, #010615, #2196f3);
 }
 
 .work--pass::before,
 .work--pass::after {
-	background: linear-gradient(235deg, #772aff, #010615, #2196f3);
+	background: linear-gradient(235deg, #ffee00, #010615, #dace99);
 }
 
 .work--park::before,
 .work--park::after {
-	background: linear-gradient(235deg, #00ffdd, #010615, #acb8eb);
+	background: linear-gradient(235deg, #ff00b3, #010615, #ce8eb8);
 }
 
 .work--page::before,
 .work--page::after {
-	background: linear-gradient(235deg, #ae73e6, #010615, #775fe6);
+	background: linear-gradient(235deg, #ff8800, #010615, #e2b170);
 }
 
 .work--brella::before,
 .work--brella::after {
-	background: linear-gradient(235deg, #ff005e, #010615, #fbff00);
+	background: linear-gradient(235deg, #ae73e6, #010615, #775fe6);
 }
 
 .work:hover {
