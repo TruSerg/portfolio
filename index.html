@@ -1,185 +1,489 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The best portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+	 <link rel="stylesheet" href="./css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="./css/choices.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+	 <script src="./js/choices.min.js" defer></script>
+    <script src="./js/tabs.js" defer></script>
+    <script src="./js/menu.js" defer></script>
+    <script src="./js/timer.js" defer></script>
+    <script src="./js/scroll.js" defer></script>
+	 <script src="./js/news.js" defer></script>
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>My portfolio</title>
-	<link rel="stylesheet" href="./assets/css/stylesheet.css">
-	<link rel="stylesheet" href="./assets/css/style.css">
-</head>
+  <body>
+    <!-- header (start) -->
+    <header class="header">
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="header-main">
+            <nav class="menu">
+              <ul class="menu-list">
+					<li class="menu-list__item">
+                  <a href="#about-me" class="menu-list__link">About me</a>
+                </li>
+					 <li class="menu-list__item">
+                  <a href="#skills" class="menu-list__link">Skills</a>
+                </li>
+                <li class="menu-list__item">
+                  <a href="#portfolio" class="menu-list__link">Portfolio</a>
+                </li>
+					 <li class="menu-list__item">
+                  <a href="#news" class="menu-list__link">News</a>
+                </li>
+                <li class="menu-list__item">
+                  <a href="#timer" class="menu-list__link">Timer</a>
+                </li>              
+              </ul>
+            </nav>
+            <!-- /.menu -->
+          </div>
+          <!-- /.header-main -->
+          <a href="tel:+375259354574" class="phone"> +375 25 935 45 74 </a>
+          <!-- <button class="humburger-menu" aria-label="Бургер меню"></button> -->
+			 <div class="icon-menu">
+					<span></span>
+			 </div>
+        </div>
+        <!-- /.header-wrapper -->
+      </div>
+    </header>
+    <!-- header (end) -->
 
-<body>
-	<header class="header">
-		<div class="container">
-			<span class="logo">Front-end Developer - portfolio</span>
-		</div>
-	</header>
-	<section class="section">
-		<div class="container">
-			<h2 class="section__title">About me</h2>
-			<p class="section__text">Over many years of professional activity, has established himself as an active, responsible, purposeful and respected specialist. I have strong leadership qualities and an analytical mindset. I decided to conquer the it sphere for myself . I started to study html, css, javascript on my own and realized that I was moving in the right direction. Recently, continued his studies at the It shuttle in the direction of Front-end developer.
-			</p>
-		</div>
-	</section>
-	<section class="section">
-		<div class="container">
-			<h2 class="section__title">Skills</h2>
-			<div class="skills">
-				<div class="skills__item">
-					<svg>
-						<use xlink:href="./assets/imgs/sprite.svg#i-react" />
-					</svg>
-					<span class="skills__text">Skill: REACT</span>
-				</div>
-				<div class="skills__item">
-					<svg>
-						<use xlink:href="./assets/imgs/sprite.svg#i-redux" />
-					</svg>
-					<span class="skills__text">Skill: REDUX</span>
-				</div>
-				<div class="skills__item">
-					<svg>
-						<use xlink:href="./assets/imgs/sprite.svg#i-js" />
-					</svg>
-					<span class="skills__text">Skill: JAVASCRIPT</span>
-				</div>
-				<div class="skills__item">
-					<svg>
-						<use xlink:href="./assets/imgs/sprite.svg#i-html" />
-					</svg>
-					<span class="skills__text">Skill: HTML5</span>
-				</div>
-				<div class="skills__item">
-					<svg>
-						<use xlink:href="./assets/imgs/sprite.svg#i-css" />
-					</svg>
-					<span class="skills__text">Skill: CSS3</span>
-				</div>
-				<div class="skills__item">
-					<svg>
-						<use xlink:href="./assets/imgs/sprite.svg#i-sass" />
-					</svg>
-					<span class="skills__text">Skill: SCSS</span>
-				</div>
-				<div class="skills__item">
-					<svg>
-						<use xlink:href="./assets/imgs/sprite.svg#i-pug" />
-					</svg>
-					<span class="skills__text">Skill: PUG</span>
-				</div>
-				<div class="skills__item">
-					<svg>
-						<use xlink:href="./assets/imgs/sprite.svg#i-gulp" />
-					</svg>
-					<span class="skills__text">Skill: GULP</span>
-				</div>
-				<div class="skills__item">
-					<svg>
-						<use xlink:href="./assets/imgs/sprite.svg#i-git" />
-					</svg>
-					<span class="skills__text">Skill: GITHUB</span>
-				</div>
+    <!-- main (start) -->
+    <section class="main" id="main">
+      <div class="container">
+        <div class="main-wrapper">
+          <div class="offer">
+            <div class="offer__text">
+              <div class="main-body">
+                <h1 class="main__title">
+                  I develop applications and websites for my own education and experience.
+                </h1>
+                <p class="main__descr">
+                  From simple pages to large online stores. 
+                </p>
+              </div>
+					<img class="offer__photo" src="./img/coding.png" alt="Фото" />		           
+            </div>
+            <a href="#about-me"
+				class="main__scroll"
+				aria-label="к следующему экрану">
+				<svg>
+					<use xlink:href="./imgs/sprite.svg#i-scroll" />
+				 </svg>
+            </a>
+          </div>
+        </div>
+        <!-- /.main-wrapper -->
+      </div>
+    </section>
+    <!-- main (end) -->
+
+    <!-- about me (start) -->
+    <section class="section" id="about-me">
+      <div class="container">
+        <h2 class="section__title">About me</h2>
+        <p class="section__text">
+          Over many years of professional activity, has established himself as
+          an active, responsible, purposeful and respected specialist. I have
+          strong leadership qualities and an analytical mindset. I decided to
+          conquer the it sphere for myself . I started to study html, css,
+          javascript on my own and realized that I was moving in the right
+          direction. Recently, continued his studies at the It shuttle in the
+          direction of Front-end developer. I wrote an online store application on React using Redux and
+			 Redux Saga, designed and adapted several landing pages using Gulp,
+			 Pug, Scss. I learned how to work with the Git version control system.
+        </p>
+      </div>
+    </section>
+    <!-- about me (end) -->
+
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section__title">Skills</h2>
+        <div class="skills">
+          <div class="skills__item">
+            <svg>
+              <use xlink:href="./imgs/sprite.svg#i-react" />
+            </svg>
+            <span class="skills__text">Skill: REACT</span>
+          </div>
+          <div class="skills__item">
+            <svg>
+              <use xlink:href="./imgs/sprite.svg#i-redux" />
+            </svg>
+            <span class="skills__text">Skill: REDUX</span>
+          </div>
+          <div class="skills__item">
+            <svg>
+              <use xlink:href="./imgs/sprite.svg#i-js" />
+            </svg>
+            <span class="skills__text">Skill: JAVASCRIPT</span>
+          </div>
+          <div class="skills__item">
+            <svg>
+              <use xlink:href="./imgs/sprite.svg#i-html" />
+            </svg>
+            <span class="skills__text">Skill: HTML5</span>
+          </div>
+          <div class="skills__item">
+            <svg>
+              <use xlink:href="./imgs/sprite.svg#i-css" />
+            </svg>
+            <span class="skills__text">Skill: CSS3</span>
+          </div>
+          <div class="skills__item">
+            <svg>
+              <use xlink:href="./imgs/sprite.svg#i-sass" />
+            </svg>
+            <span class="skills__text">Skill: SCSS</span>
+          </div>
+          <div class="skills__item">
+            <svg>
+              <use xlink:href="./imgs/sprite.svg#i-pug" />
+            </svg>
+            <span class="skills__text">Skill: PUG</span>
+          </div>
+          <div class="skills__item">
+            <svg>
+              <use xlink:href="./imgs/sprite.svg#i-gulp" />
+            </svg>
+            <span class="skills__text">Skill: GULP</span>
+          </div>
+          <div class="skills__item">
+            <svg>
+              <use xlink:href="./imgs/sprite.svg#i-git" />
+            </svg>
+            <span class="skills__text">Skill: GITHUB</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- design (start) -->
+    <section class="section design" id="portfolio">
+      <div class="container">
+        <h2 class="section__title">Portfolio</h2>
+        <div class="design-wrapper">
+          <div class="design-block">
+            <img
+              src="img/example/pokemons-min.png"
+              alt="A 200"
+              class="feature__img design-block__img"
+              data-tabs-field="interior"
+            />
+            <img
+              src="img/example/t.pass-min.jpg"
+              alt="A 200"
+              class="feature__img design-block__img hidden"
+              data-tabs-field="body"
+            />
+            <div class="design-text">
+              <h2 class="section__title design__title"> Web applications</h2>
+              <h2 class="section__title design__title hidden">Layout</h2>
+              <ul class="design-list">
+                <li>
+                  <button
+                    type="button"
+                    class="design-list__item design-list__item_active"
+                    data-tabs-handler="interior"
+                    data-some-attr="attr"
+                  >
+                    Application examples
+                  </button>
+                </li>
+                <li>
+                  <button
+                    type="button"
+                    class="design-list__item"
+                    data-tabs-handler="body"
+                  >
+                    Layout examples
+                  </button>
+                </li>
+              </ul>
+              <!-- /.design-list -->
+              <ul>
+                <li class="design__descr" data-tabs-field="interior">
+                  <p class="design__description-text">
+                    Applications are developed using JavaScript, React, Redux,
+                    Redux-Saga, Material-Ui. My best work is "Online Pokemons
+                    Store".
+                  </p>
+                </li>
+                <li class="design__descr hidden" data-tabs-field="body">
+                  <p class="design__description-text">
+                    The layout examples show one-page sites designed and adapted
+                    for mobile devices using HTML, CSS, SCSS, PUG, GULP. My best
+                    work is "Hungry People".
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <!-- /.design-text -->
+          </div>
+          <!-- /.design-block -->
+          <div>
+            <h2 class="section__title">Works</h2>
+            <div class="works" data-tabs-field="interior">
+              <div class="work-wrap">
+                <a
+                  href="https://pokemons-online-store.herokuapp.com"
+                  class="work work--pokemons"
+                  target="_blank"
+                >
+                  <figure class="work__img-wrap">
+                    <img
+                      class="work__img"
+                      src="./imgs/pokemons-min.png"
+                      alt="pokemon"
+                    />
+                  </figure>
+                  <span class="work__content">
+                    <div class="work__tech">
+							Technologys: REACT / REDUX / REDUX-SAGA / JS / MATERIAL-UI / SCSS IN
+                      JS
+                    </div>
+                    <div class="work__time">Time: 24 hours</div>
+                  </span>
+                </a>
+              </div>
+              <div class="work-wrap">
+                <a
+                  href="https://redux-tasks-list.herokuapp.com"
+                  class="work work--todo"
+                  target="_blank"
+                >
+                  <figure class="work__img-wrap">
+                    <img
+                      class="work__img"
+                      src="./imgs/todo-min.png"
+                      alt="todo"
+                    />
+                  </figure>
+                  <span class="work__content">
+                    <div class="work__tech">
+                     Technologys: REACT / REDUX / JS / MATERIAL-UI / SCSS IN JS
+                    </div>
+                    <div class="work__time">Time: 8 hours</div>
+                  </span>
+                </a>
+              </div>
+              <div class="work-wrap">
+                <a
+                  href="https://truserg.github.io/users-table"
+                  class="work work--table"
+                  target="_blank"
+                >
+                  <figure class="work__img-wrap">
+                    <img
+                      class="work__img"
+                      src="./imgs/users-table-min.jpg"
+                      alt="table"
+                    />
+                  </figure>
+                  <span class="work__content">
+                    <div class="work__tech">Technologys: JS / HTML / CSS</div>
+                    <div class="work__time">Time: 2 hours</div>
+                  </span>
+                </a>
+              </div>
+            </div>
+              <div class="works hidden" data-tabs-field="body">
+                <div class="work-wrap">
+                  <a
+                    href="https://truserg.github.io/hungry-people/dist"
+                    class="work work--hungry"
+                    target="_blank"
+                  >
+                    <figure class="work__img-wrap">
+                      <img
+                        class="work__img"
+                        src="./imgs/hungry-min.jpg"
+                        alt="hungry people"
+                      />
+                    </figure>
+                    <span class="work__content">
+                      <div class="work__tech">Technologys: PUG / SCSS / GULP / JS</div>
+                      <div class="work__time">Time: 8 hours</div>
+                    </span>
+                  </a>
+                </div>
+                <div class="work-wrap">
+                  <a
+                    href="https://truserg.github.io/brella"
+                    class="work work--brella"
+                    target="_blank"
+                  >
+                    <figure class="work__img-wrap">
+                      <img
+                        class="work__img"
+                        src="./imgs/brella-min.jpg"
+                        alt="saas landing page"
+                      />
+                    </figure>
+                    <span class="work__content">
+                      <div class="work__tech">Technologys: HTML / CSS / JS</div>
+                      <div class="work__time">Time: 8 hours</div>
+                    </span>
+                  </a>
+                </div>
+                <div class="work-wrap">
+                  <a
+                    href="https://truserg.github.io/t.pass/dist"
+                    class="work work--pass"
+                    target="_blank"
+                  >
+                    <figure class="work__img-wrap">
+                      <img
+                        class="work__img"
+                        src="./imgs/t.pass-min.jpg"
+                        alt="t.pass"
+                      />
+                    </figure>
+                    <span class="work__content">
+                      <div class="work__tech">Technologys: PUG / SCSS / GULP / JS</div>
+                      <div class="work__time">Time: 8 hours</div>
+                    </span>
+                  </a>
+                </div>
+                <div class="work-wrap">
+                  <a
+                    href="https://truserg.github.io/rayal-park"
+                    class="work work--park"
+                    target="_blank"
+                  >
+                    <figure class="work__img-wrap">
+                      <img
+                        class="work__img"
+                        src="./imgs/park-min.jpg"
+                        alt="rayal park"
+                      />
+                    </figure>
+                    <span class="work__content">
+                      <div class="work__tech">Technologys: HTML / CSS / JS</div>
+                      <div class="work__time">Time: 5 hours</div>
+                    </span>
+                  </a>
+                </div>
+                <div class="work-wrap">
+                  <a
+                    href="https://truserg.github.io/saas-landing-page"
+                    class="work work--page"
+                    target="_blank"
+                  >
+                    <figure class="work__img-wrap">
+                      <img
+                        class="work__img"
+                        src="./imgs/sass-min.jpg"
+                        alt="saas landing page"
+                      />
+                    </figure>
+                    <span class="work__content">
+                      <div class="work__tech">Technologys: KIT / SCSS / JS</div>
+                      <div class="work__time">Time: 3 hours</div>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </>
+          </div>
+        </div>
+        <!-- /.design-wrapper -->
+      </div>
+    </section>
+    <!-- design (end) -->
+
+	 <!-- news (start) -->
+	 <section class="section" id="news">
+      <div class="container flex-center">
+			<h2 class="section__title section__title--news">News</h2>
+        <form class="form-search">
+          <select name="country" class="js-choise">
+            <option value="">Choose the country</option>
+            <option value="ru">Russia</option>
+            <option value="ua">Ukrain</option>
+            <option value="us">USA</option>
+            <option value="de">Germany</option>
+            <option value="cz">Czech</option>
+            <option value="pl">Poland</option>
+            <option value="lv">Lithuania</option>
+            <option value="lt">Latvia</option>
+          </select>
+        </form>
+      </div>
+		<div class="title-wrapper">
+			<div class="container">
+			  <h1 class="visually-hidden">Only fresh news</h1>
+			  <h2 class="title hide">
+				 Your search "IT news" found 6 results
+			  </h2>
+			  <div class="news">
+				 <h2 class="visually-hidden">News list</h2>
+				 <div class="container">
+					<ul class="news-list"></ul>
+				 </div>
+			  </div>
 			</div>
-		</div>
-	</section>
-	<section class="section">
-		<div class="container">
-			<h2 class="section__title">Works</h2>
-			<div class="works">
-				<div class="work-wrap">
-					<a href="https://pokemons-online-store.herokuapp.com" class="work work--pokemons" target="_blank">
-						<figure class="work__img-wrap">
-							<img class="work__img" src="./assets/imgs/pokemons-min.png" alt="pokemon">
-						</figure>
-						<span class="work__content">
-							<p class="work__tech">Технологии: REACT/REDUX/REDUX-SAGA/JS/MATERIAL-UI/SCSS IN JS</p>
-							<p class="work__time">Время: 24 часов</p>
-						</span>
-					</a>
-				</div>
-				<div class="work-wrap">
-					<a href="https://redux-tasks-list.herokuapp.com" class="work work--todo" target="_blank">
-						<figure class="work__img-wrap">
-							<img class="work__img" src="./assets/imgs/todo-min.png" alt="todo">
-						</figure>
-						<span class="work__content">
-							<p class="work__tech">Технологии: REACT/REDUX/JS/MATERIAL-UI/SCSS IN JS</p>
-							<p class="work__time">Время: 8 часа</p>
-						</span>
-					</a>
-				</div>
-				<div class="work-wrap">
-					<a href="https://truserg.github.io/users-table" class="work work--table" target="_blank">
-						<figure class="work__img-wrap">
-							<img class="work__img" src="./assets/imgs/users-table-min.jpg" alt="table">
-						</figure>
-						<span class="work__content">
-							<p class="work__tech">Технологии: JAVASCRIPT/HTML/CSS</p>
-							<p class="work__time">Время: 2 часа</p>
-						</span>
-					</a>
-				</div>
-				<div class="work-wrap">
-					<a href="https://truserg.github.io/hungry-people/dist" class="work work--hungry" target="_blank">
-						<figure class="work__img-wrap">
-							<img class="work__img" src="./assets/imgs/hungry-min.jpg" alt="hungry people">
-						</figure>
-						<span class="work__content">
-							<p class="work__tech">Технологии: PUG/SCSS/GULP/JS</p>
-							<p class="work__time">Время: 8 часов</p>
-						</span>
-					</a>
-				</div>
-				<div class="work-wrap">
-					<a href="https://truserg.github.io/brella" class="work work--brella" target="_blank">
-						<figure class="work__img-wrap">
-							<img class="work__img" src="./assets/imgs/brella-min.jpg" alt="saas landing page">
-						</figure>
-						<span class="work__content">
-							<p class="work__tech">Технологии: HTML/CSS/JS</p>
-							<p class="work__time">Время: 8 часов</p>
-						</span>
-					</a>
-				</div>
-				<div class="work-wrap">
-					<a href="https://truserg.github.io/t.pass/dist" class="work work--pass" target="_blank">
-						<figure class="work__img-wrap">
-							<img class="work__img" src="./assets/imgs/t.pass-min.jpg" alt="t.pass">
-						</figure>
-						<span class="work__content">
-							<p class="work__tech">Технологии: PUG/SCSS/GULP/JS</p>
-							<p class="work__time">Время: 8 часов</p>
-						</span>
-					</a>
-				</div>
-				<div class="work-wrap">
-					<a href="https://truserg.github.io/rayal-park" class="work work--park" target="_blank">
-						<figure class="work__img-wrap">
-							<img class="work__img" src="./assets/imgs/park-min.jpg" alt="rayal park">
-						</figure>
-						<span class="work__content">
-							<p class="work__tech">Технологии: HTML/CSS/JS</p>
-							<p class="work__time">Время: 5 часов</p>
-						</span>
-					</a>
-				</div>
-				<div class="work-wrap">
-					<a href="https://truserg.github.io/saas-landing-page" class="work work--page" target="_blank">
-						<figure class="work__img-wrap">
-							<img class="work__img" src="./assets/imgs/sass-min.jpg" alt="saas landing page">
-						</figure>
-						<span class="work__content">
-							<p class="work__tech">Технологии: KIT/SCSS/JS</p>
-							<p class="work__time">Время: 3 часа</p>
-						</span>
-					</a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<footer class="footer"></footer>
-</body>
+		 </div>
+    </section>  
+	 <!-- news (end) -->
 
+    <!-- /.timer start-->
+    <section class="timer" id="timer">
+      <p class="timer__text">Time before get a job</br><span class="second-timer__text">There is still time to hire the best developer!!!</span></p>
+      <p class="timer__time">21:13:33</p>
+    </section>
+    <!-- /.timer end -->
+
+	 <!-- /.footer start -->
+
+	 <footer class="footer">
+      <div class="container footer-container">
+			<a href="tel:+375259354574" class="phone phone--footer"> +375 25 935 45 74 </a>
+        <p class="copyright">© 2002 made by Sergey Trukhan</p>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://twitter.com" class="social-link">
+					<svg>
+						<use xlink:href="./imgs/sprite.svg#i-twitter" />
+					</svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://habr.com" class="social-link">
+					<svg>
+						<use xlink:href="./imgs/sprite.svg#i-habr" />
+					</svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://vk.com" class="social-link">
+					<svg>
+						<use xlink:href="./imgs/sprite.svg#i-vk" />
+					</svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+	<!-- /.footer end -->
+    <script src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest/lib/bundle.min.js"></script>
+  </body>
 </html>
