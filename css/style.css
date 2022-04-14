@@ -865,6 +865,10 @@ input[type="search"]::-webkit-search-cancel-button {
 		width: 70px;
 		height: 70px;
 	}
+
+	.design {
+		padding-bottom: 1rem;
+	}
 }
 
 @media (max-width: 424.75px) {
@@ -931,6 +935,10 @@ input[type="search"]::-webkit-search-cancel-button {
 
 	.skills__text {
 		font-size: 1.3rem;
+	}
+
+	.timer {
+		padding-top: 1rem;
 	}
 
 	.timer__text {
