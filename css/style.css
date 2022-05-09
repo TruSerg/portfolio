@@ -353,6 +353,16 @@ body._lock {
 	background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
 }
 
+.work--github-users::before,
+.work--github-users::after {
+	background: linear-gradient(235deg, #ae73e6, #010615, #775fe6);
+}
+
+.work--carrensies::before,
+.work--carrensies::after {
+	background: linear-gradient(235deg, #ff8800, #010615, #e2b170);
+}
+
 .work--todo::before,
 .work--todo::after {
 	background: linear-gradient(235deg, #ff005e, #010615, #fbff00);
