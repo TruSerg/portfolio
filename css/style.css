@@ -398,6 +398,11 @@ body._lock {
 	background: linear-gradient(235deg, #ae73e6, #010615, #775fe6);
 }
 
+.work--laboratory::before,
+.work--laboratory::after {
+	background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+}
+
 .work:hover {
 	min-height: 25rem;
 }
