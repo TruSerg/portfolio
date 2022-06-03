@@ -261,6 +261,16 @@ body._lock {
 	background: linear-gradient(235deg, #ff00b3, #010615, #ce8eb8);
 }
 
+.skills__item:nth-child(9):before,
+.skills__item:nth-child(9):after {
+	background: linear-gradient(235deg, #00ffdd, #010615, #acb8eb);
+}
+
+.skills__item:nth-child(10):before,
+.skills__item:nth-child(10):after {
+	background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+}
+
 .skills__item svg {
 	fill: #00bcd4;
 	max-width: 40%;
