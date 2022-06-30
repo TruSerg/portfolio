@@ -389,6 +389,16 @@ body._lock {
 	background: linear-gradient(235deg, #772aff, #010615, #2196f3);
 }
 
+.work--laboratory::before,
+.work--laboratory::after {
+	background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+}
+
+.work--roofing-academy::before,
+.work--roofing-academy::after {
+	background: linear-gradient(235deg, #ff8800, #010615, #e2b170);
+}
+
 .work--pass::before,
 .work--pass::after {
 	background: linear-gradient(235deg, #ffee00, #010615, #dace99);
@@ -401,17 +411,12 @@ body._lock {
 
 .work--page::before,
 .work--page::after {
-	background: linear-gradient(235deg, #ff8800, #010615, #e2b170);
+	background: linear-gradient(235deg, #ff005e, #010615, #fbff00);
 }
 
 .work--brella::before,
 .work--brella::after {
 	background: linear-gradient(235deg, #ae73e6, #010615, #775fe6);
-}
-
-.work--laboratory::before,
-.work--laboratory::after {
-	background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
 }
 
 .work:hover {

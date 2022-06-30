@@ -1,5 +1,5 @@
 const timerBlock = document.querySelector(".timer__time");
-const deadline = "30 june 2022";
+const deadline = "30 july 2022";
 
 let interval;
 
