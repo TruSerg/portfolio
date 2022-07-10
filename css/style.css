@@ -376,6 +376,11 @@ body._lock {
 
 .work--todo::before,
 .work--todo::after {
+	background: linear-gradient(235deg, #772aff, #010615, #2196f3);
+}
+
+.work--ozone::before,
+.work--ozone::after {
 	background: linear-gradient(235deg, #ff005e, #010615, #fbff00);
 }
 
