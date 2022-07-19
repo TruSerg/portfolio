@@ -379,6 +379,11 @@ body._lock {
 	background: linear-gradient(235deg, #772aff, #010615, #2196f3);
 }
 
+.work--trucks::before,
+.work--trucks::after {
+	background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+}
+
 .work--ozone::before,
 .work--ozone::after {
 	background: linear-gradient(235deg, #ff005e, #010615, #fbff00);
