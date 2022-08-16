@@ -109,7 +109,7 @@ body._lock {
 
 .main-body {
 	margin-right: 2rem;
-	padding: 20px;
+	padding: 20px 20px 20px 0;
 }
 
 .main__scroll svg {
@@ -234,7 +234,7 @@ body._lock {
 }
 
 .design-text {
-	padding: 20px;
+	padding: 20px 0 20px 20px;
 }
 
 .design__description-text {
