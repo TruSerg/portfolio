@@ -146,17 +146,6 @@ body._lock {
 	gap: 2rem;
 }
 
-.cv__link {
-	display: inline-block;
-	color: #00FFFF;
-	transition: all 0.5s;
-	border-bottom: 1px solid #00FFFF;
-}
-
-.cv__link:hover {
-	color: #2196f3;
-}
-
 .about__in {
 	display: flex;
 	align-items: center;
@@ -175,13 +164,18 @@ body._lock {
 	color: #2196f3;
 }
 
+.cv__link svg {
+	color: #00bcd4;
+	width: 42px;
+	height: 38px;
+	transition: 0.5s;
+}
+
 .git__link svg {
 	color: #00bcd4;
-	width: 38px;
+	width: 50px;
 	height: 38px;
-	fill: #000;
-	transition: all 0.5s;
-	margin-left: 6px;
+	transition: 0.5s;
 }
 
 .in__link svg {
