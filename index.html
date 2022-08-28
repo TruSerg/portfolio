@@ -23,10 +23,11 @@
     <script src="./js/menu.js" defer></script>
     <script src="./js/timer.js" defer></script>
     <script src="./js/scroll.js" defer></script>
+	 <script src="./js/changeThemes.js" defer></script>
 	 <!-- <script src="./js/news.js" defer></script> -->
   </head>
 
-  <body>
+  <body class="white">
     <!-- header (start) -->
     <header class="header">
       <div class="container">
@@ -64,6 +65,22 @@
       </div>
     </header>
     <!-- header (end) -->
+
+	 <!-- top (start) -->
+	<div class="top">
+		<div class="container top__container">
+			<div class="top__buttons">
+				<button
+				 	class="top__button-color top__button-color--black">
+				</button>
+				<button
+				 	class="top__button-color top__button-color--white">
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- top (end) -->
 
     <!-- main (start) -->
     <section class="main" id="main">
@@ -172,67 +189,67 @@
             <svg>
               <use xlink:href="./imgs/sprite.svg#i-react" />
             </svg>
-            <span class="skills__text">Skill: REACT</span>
+            <span class="skills__text">REACT</span>
           </div>
           <div class="skills__item">
             <svg>
               <use xlink:href="./imgs/sprite.svg#i-redux" />
             </svg>
-            <span class="skills__text">Skill: REDUX</span>
+            <span class="skills__text">REDUX</span>
           </div>
 			 <div class="skills__item">
             <svg>
               <use xlink:href="./imgs/sprite.svg#i-vue" />
             </svg>
-            <span class="skills__text">Skill: VUE</span>
+            <span class="skills__text">VUE</span>
           </div>
           <div class="skills__item">
             <svg>
               <use xlink:href="./imgs/sprite.svg#i-js" />
             </svg>
-            <span class="skills__text">Skill: JAVASCRIPT</span>
+            <span class="skills__text">JAVASCRIPT</span>
           </div>
 			 <div class="skills__item">
             <svg>
               <use xlink:href="./imgs/sprite.svg#i-webpack" />
             </svg>
-            <span class="skills__text">Skill: WEBPACK</span>
+            <span class="skills__text">WEBPACK</span>
           </div>
           <div class="skills__item">
             <svg>
               <use xlink:href="./imgs/sprite.svg#i-html" />
             </svg>
-            <span class="skills__text">Skill: HTML5</span>
+            <span class="skills__text">HTML5</span>
           </div>
           <div class="skills__item">
             <svg>
               <use xlink:href="./imgs/sprite.svg#i-css" />
             </svg>
-            <span class="skills__text">Skill: CSS3</span>
+            <span class="skills__text">CSS3</span>
           </div>
           <div class="skills__item">
             <svg>
               <use xlink:href="./imgs/sprite.svg#i-sass" />
             </svg>
-            <span class="skills__text">Skill: SCSS</span>
+            <span class="skills__text">SCSS</span>
           </div>
           <div class="skills__item">
             <svg>
               <use xlink:href="./imgs/sprite.svg#i-pug" />
             </svg>
-            <span class="skills__text">Skill: PUG</span>
+            <span class="skills__text">PUG</span>
           </div>
           <div class="skills__item">
             <svg>
               <use xlink:href="./imgs/sprite.svg#i-gulp" />
             </svg>
-            <span class="skills__text">Skill: GULP</span>
+            <span class="skills__text">GULP</span>
           </div>
           <div class="skills__item">
             <svg>
               <use xlink:href="./imgs/sprite.svg#i-git" />
             </svg>
-            <span class="skills__text">Skill: GITHUB</span>
+            <div class="skills__text">GITHUB</div>
           </div>
         </div>
       </div>
@@ -319,10 +336,9 @@
                   </figure>
                   <span class="work__content">
                     <div class="work__tech">
-							Technology: REACT / REDUX / REDUX-SAGA / JS / MATERIAL-UI / SCSS IN
+							<span class="work__description">Technology:</span> REACT / REDUX / REDUX-SAGA / JS / MATERIAL-UI / SCSS IN
                       JS
                     </div>
-                    <div class="work__time">Time: 24 hours</div>
                   </span>
                 </a>
               </div>
@@ -341,9 +357,8 @@
 					  </figure>
 					  <span class="work__content">
 						 <div class="work__tech">
-							Technology: REACT / JS / SCSS IN JS
+							<span class="work__description">Technology:</span> REACT / JS / SCSS IN JS
 						 </div>
-						 <div class="work__time">Time: 8 hours</div>
 					  </span>
 					</a>
 				 </div>
@@ -362,9 +377,8 @@
 					  </figure>
 					  <span class="work__content">
 						 <div class="work__tech">
-						  Technology: REACT / REDUX / JS / MATERIAL-UI / SCSS IN JS
+							<span class="work__description">Technology:</span> REACT / REDUX / JS / MATERIAL-UI / SCSS IN JS
 						 </div>
-						 <div class="work__time">Time: 8 hours</div>
 					  </span>
 					</a>
 				 </div>
@@ -383,9 +397,8 @@
 					  </figure>
 					  <span class="work__content">
 						 <div class="work__tech">
-							Technology: VUE / JS / ANT-DESIGN 
+							<span class="work__description">Technology:</span> VUE / JS / ANT-DESIGN 
 						 </div>
-						 <div class="work__time">Time: 4 hours</div>
 					  </span>
 					</a>
 				 </div>
@@ -404,9 +417,8 @@
 					  </figure>
 					  <span class="work__content">
 						 <div class="work__tech">
-							Technology: VUE / JS / ANT-DESIGN
+							<span class="work__description">Technology:</span> VUE / JS / ANT-DESIGN
 						 </div>
-						 <div class="work__time">Time: 5 hours</div>
 					  </span>
 					</a>
 				</div>
@@ -425,9 +437,8 @@
 					  </figure>
 					  <span class="work__content">
 						 <div class="work__tech">
-							Technology: JS / GULP / PUG / SCSS
+							<span class="work__description">Technology:</span> JS / GULP / PUG / SCSS
 						 </div>
-						 <div class="work__time">Time: 8 hours</div>
 					  </span>
 					</a>
 				 </div>
@@ -446,9 +457,8 @@
 					  </figure>
 					  <span class="work__content">
 						 <div class="work__tech">
-						  Technology: JS / HTML / CSS
+							<span class="work__description">Technology:</span> JS / HTML / CSS
 						 </div>
-						 <div class="work__time">Time: 4 hours</div>
 					  </span>
 					</a>
 				 </div>
@@ -467,9 +477,8 @@
 					  </figure>
 					  <span class="work__content">
 						 <div class="work__tech">
-						  Technology: JS / WEBPACK / HTML / SCSS
+							<span class="work__description">Technology:</span> JS / WEBPACK / HTML / SCSS
 						 </div>
-						 <div class="work__time">Time: 12 hours</div>
 					  </span>
 					</a>
 				 </div>
@@ -487,8 +496,7 @@
                     />
                   </figure>
                   <span class="work__content">
-                    <div class="work__tech">Technology: JS / HTML / CSS</div>
-                    <div class="work__time">Time: 2 hours</div>
+                    <div class="work__tech"><span class="work__description">Technology:</span> JS / HTML / CSS</div>
                   </span>
                 </a>
               </div>
@@ -508,8 +516,7 @@
                       />
                     </figure>
                     <span class="work__content">
-                      <div class="work__tech">Technology: PUG / SCSS / GULP / JS</div>
-                      <div class="work__time">Time: 8 hours</div>
+                      <div class="work__tech"><span class="work__description">Technology:</span> PUG / SCSS / GULP / JS</div>
                     </span>
                   </a>
                 </div>
@@ -527,8 +534,7 @@
                       />
                     </figure>
                     <span class="work__content">
-                      <div class="work__tech">Technology: HTML / CSS / JS</div>
-                      <div class="work__time">Time: 8 hours</div>
+                      <div class="work__tech"><span class="work__description">Technology:</span> HTML / CSS / JS</div>
                     </span>
                   </a>
                 </div>
@@ -546,8 +552,7 @@
                       />
                     </figure>
                     <span class="work__content">
-                      <div class="work__tech">Technology: HTML / CSS / JS</div>
-                      <div class="work__time">Time: 8 hours</div>
+                      <div class="work__tech"><span class="work__description">Technology:</span> HTML / CSS / JS</div>
                     </span>
                   </a>
                 </div>
@@ -565,8 +570,7 @@
                       />
                     </figure>
                     <span class="work__content">
-                      <div class="work__tech">Technology: HTML / CSS / JS</div>
-                      <div class="work__time">Time: 8 hours</div>
+                      <div class="work__tech"><span class="work__description">Technology:</span> HTML / CSS / JS</div>
                     </span>
                   </a>
                 </div>
@@ -584,8 +588,7 @@
                       />
                     </figure>
                     <span class="work__content">
-                      <div class="work__tech">Technology: PUG / SCSS / GULP / JS</div>
-                      <div class="work__time">Time: 8 hours</div>
+                      <div class="work__tech"><span class="work__description">Technology:</span> PUG / SCSS / GULP / JS</div>
                     </span>
                   </a>
                 </div>
@@ -603,8 +606,7 @@
                       />
                     </figure>
                     <span class="work__content">
-                      <div class="work__tech">Technology: HTML / CSS / JS</div>
-                      <div class="work__time">Time: 5 hours</div>
+                      <div class="work__tech"><span class="work__description">Technology:</span> HTML / CSS / JS</div>
                     </span>
                   </a>
                 </div>
@@ -622,13 +624,11 @@
                       />
                     </figure>
                     <span class="work__content">
-                      <div class="work__tech">Technology: KIT / SCSS / JS</div>
-                      <div class="work__time">Time: 3 hours</div>
+                      <div class="work__tech"><span class="work__description">Technology:</span> KIT / SCSS / JS</div>
                     </span>
                   </a>
                 </div>
               </div>
-            </>
           </div>
         </div>
         <!-- /.design-wrapper -->
