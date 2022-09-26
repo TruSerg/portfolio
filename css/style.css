@@ -283,7 +283,7 @@ body._lock {
 
 .offer__photo {
 	max-width: 45rem;
-	min-height: 25rem;
+	min-height: 23rem;
 	width: 100%;
 	border-radius: 5px;
 }
@@ -516,7 +516,7 @@ body._lock {
 	padding: 2rem;
 	position: relative;
 	max-width: 22rem;
-	border: 1px solid #00bcd4;
+	border: 1px solid rgba(0, 188, 212, 0.5);
 }
 
 .black .skills__item {
@@ -680,7 +680,7 @@ body._lock {
 	justify-content: center;
 	transition: 0.5s;
 	background-color: transparent;
-	border: 1px solid #00bcd4;
+	border: 1px solid rgba(0, 188, 212, 0.5);
 }
 
 .black .work {
