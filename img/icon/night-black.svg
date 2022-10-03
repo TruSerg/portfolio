@@ -2,7 +2,7 @@
   <defs>
     <style>
       .vi-primary {
-        fill: #00FFFF;
+        fill: #89ff00;
         stroke: #fff;
         stroke-linecap: round;
         stroke-width: 0;
