@@ -102,12 +102,8 @@ body._lock {
 	width: 100%;
 }
 
-.black .phone:hover {
-	color: #89ff00;
-}
-
 .black .phone {
-	color: #00FFFF;
+	color: #89ff00;
 }
 
 .white .phone {
@@ -184,7 +180,15 @@ body._lock {
 	transition: 0.5s;
 }
 
-.black .menu-list__link:after {
+.black .menu-list__link {
+	color: #89ff00;
+}
+
+.white .menu-list__link {
+	color: #fff;
+}
+
+.menu-list__link:after {
 	content: "";
 	position: absolute;
 	left: 50%;
@@ -195,32 +199,17 @@ body._lock {
 	transition: all 0.3s ease;
 }
 
+.black .menu-list__link:after {
+	background-color: #89ff00;
+}
+
 .white .menu-list__link:after {
-	content: "";
-	position: absolute;
-	left: 50%;
-	width: 0;
-	height: 1px;
 	background-color: #fff;
-	bottom: -5px;
-	transition: all 0.3s ease;
 }
 
 .menu-list__link:hover:after {
 	left: 0;
 	width: 100%;
-}
-
-.black .menu-list__link {
-	color: #00FFFF;
-}
-
-.black .menu-list__link:hover {
-	color: #89ff00;
-}
-
-.white .menu-list__link {
-	color: #fff;
 }
 
 .icon-menu {
@@ -495,56 +484,6 @@ body._lock {
 	border-radius: 5px;
 }
 
-/* === DESIGN =========================================================================== */
-
-.design-wrapper {
-	padding-bottom: 50px;
-}
-
-.design-list__item {
-	color: #00bcd4;
-}
-
-.black .design-list__item {
-	color: #00bcd4;
-}
-
-.white .design-list__item {
-	color: #575454;
-}
-
-.design-list__item_active {
-	color: #00FFFF;
-	border-bottom: 2px solid #00bcd4;
-}
-
-.black .design-list__item_active {
-	color: #00FFFF;
-	border-bottom: 1px solid #89ff00;
-}
-
-.white .design-list__item_active {
-	color: #7db122;
-	border-bottom: 1px solid #4cb1ca;
-}
-
-.design-text {
-	padding: 20px 0 20px 20px;
-}
-
-.design__description-text {
-	color: #00FFFF;
-	font-size: 1.3rem;
-}
-
-.black .design__description-text {
-	color: #00FFFF;
-}
-
-.white .design__description-text {
-	color: #575454;
-}
-
 /* === SKILLS ============================================================================ */
 
 .skills {
@@ -607,7 +546,7 @@ body._lock {
 }
 
 .black .skills__text {
-	color: #00FFFF;
+	color: #89ff00;
 	background-color: #060c21;
 }
 
@@ -626,6 +565,55 @@ body._lock {
 	background-color: transparent;
 }
 
+/* === DESIGN =========================================================================== */
+
+.design-wrapper {
+	padding-bottom: 50px;
+}
+
+.design-list__item {
+	color: #00bcd4;
+}
+
+.black .design-list__item {
+	color: #00bcd4;
+}
+
+.white .design-list__item {
+	color: #575454;
+}
+
+.design-list__item_active {
+	color: #00FFFF;
+	border-bottom: 2px solid #00bcd4;
+}
+
+.black .design-list__item_active {
+	color: #89ff00;
+	border-bottom: 1px solid #00FFFF;
+}
+
+.white .design-list__item_active {
+	color: #7db122;
+	border-bottom: 1px solid #4cb1ca;
+}
+
+.design-text {
+	padding: 20px 0 20px 20px;
+}
+
+.design__description-text {
+	color: #00FFFF;
+	font-size: 1.3rem;
+}
+
+.black .design__description-text {
+	color: #00FFFF;
+}
+
+.white .design__description-text {
+	color: #575454;
+}
 
 /* === WORKS ============================================================================== */
 
@@ -667,99 +655,6 @@ body._lock {
 	border: none;
 	box-shadow: 0px 0px 20px 4px #575454;
 }
-
-/* .work::before {
-	content: "";
-	position: absolute;
-	top: -2px;
-	left: -2px;
-	right: -2px;
-	bottom: -2px;
-	background: #fff;
-	z-index: -1;
-}
-
-.work::after {
-	content: "";
-	position: absolute;
-	top: -2px;
-	left: -2px;
-	right: -2px;
-	bottom: -2px;
-	background: #fff;
-	z-index: -2;
-	filter: blur(10px);
-} */
-
-/* .work--pokemons::before,
-.work--pokemons::after {
-	background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
-}
-
-.work--github-users::before,
-.work--github-users::after {
-	background: linear-gradient(235deg, #ae73e6, #010615, #775fe6);
-}
-
-.work--carrensies::before,
-.work--carrensies::after {
-	background: linear-gradient(235deg, #ff8800, #010615, #e2b170);
-}
-
-.work--todo::before,
-.work--todo::after {
-	background: linear-gradient(235deg, #772aff, #010615, #2196f3);
-}
-
-.work--trucks::before,
-.work--trucks::after {
-	background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
-}
-
-.work--ozone::before,
-.work--ozone::after {
-	background: linear-gradient(235deg, #ff005e, #010615, #fbff00);
-}
-
-.work--table::before,
-.work--table::after {
-	background: linear-gradient(235deg, #00ffdd, #010615, #acb8eb);
-}
-
-.work--hungry::before,
-.work--hungry::after {
-	background: linear-gradient(235deg, #772aff, #010615, #2196f3);
-}
-
-.work--laboratory::before,
-.work--laboratory::after {
-	background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
-}
-
-.work--roofing-academy::before,
-.work--roofing-academy::after {
-	background: linear-gradient(235deg, #ff8800, #010615, #e2b170);
-}
-
-.work--pass::before,
-.work--pass::after {
-	background: linear-gradient(235deg, #ffee00, #010615, #dace99);
-}
-
-.work--park::before,
-.work--park::after {
-	background: linear-gradient(235deg, #ff00b3, #010615, #ce8eb8);
-}
-
-.work--page::before,
-.work--page::after {
-	background: linear-gradient(235deg, #ff005e, #010615, #fbff00);
-}
-
-.work--brella::before,
-.work--brella::after {
-	background: linear-gradient(235deg, #ae73e6, #010615, #775fe6);
-} */
 
 .work:hover {
 	min-height: 24rem;
@@ -817,7 +712,7 @@ body._lock {
 }
 
 .black .work__description {
-	color: #00FFFF;
+	color: #89ff00;
 }
 
 .white .work__description {
@@ -951,12 +846,12 @@ body._lock {
 
 .black .social-link svg {
 	fill: #525050;
-	color: #00bcd4; 
+	color: #89ff00; 
 }
 
 .black .social-link svg:hover {
 	fill: #000;
-	color: #89ff00;
+	color: #00bcd4;
 }
 
 .white .social-link svg {
@@ -1153,6 +1048,16 @@ body._lock {
 
 	.menu-list {
 		padding-top: 4rem;
+	}
+
+	.menu-list__link:after {
+		content: "";
+		height: 0;
+	}
+
+	.phone:after {
+		content: "";
+		height: 0;
 	}
 
 	.work__content {
