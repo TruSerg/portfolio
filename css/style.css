@@ -677,15 +677,15 @@ body._lock {
 }
 
 .work__img {
-  opacity: 0.1;
+  opacity: 0.5;
 }
 
 .black .work__img {
-  opacity: 0.1;
+  opacity: 0.5;
 }
 
 .white .work__img {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .work:hover .work__img {
