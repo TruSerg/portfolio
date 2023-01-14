@@ -257,6 +257,10 @@ body._lock {
   padding-top: 30px;
 }
 
+.main-wrapper {
+  padding-bottom: 0;
+}
+
 .main__title {
   color: #00bcd4;
 }
