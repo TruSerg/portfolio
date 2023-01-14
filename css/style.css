@@ -605,6 +605,7 @@ body._lock {
 .design__description-text {
   color: #00ffff;
   font-size: 1.3rem;
+  margin: 0;
 }
 
 .black .design__description-text {
