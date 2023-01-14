@@ -1124,6 +1124,10 @@ body._lock {
     margin-bottom: 2rem;
   }
 
+  .offer__photo {
+    margin-bottom: 1rem;
+  }
+
   .skills {
     display: block;
   }
@@ -1142,8 +1146,12 @@ body._lock {
     font-size: 2.8rem;
   }
 
+  .main__title {
+    margin-bottom: 1rem;
+  }
+
   .section {
-    padding: 1.5rem 1rem;
+    padding: 1rem 1rem;
   }
 
   .section__text {
@@ -1163,11 +1171,7 @@ body._lock {
   }
 
   .main {
-    padding-top: 10px;
-  }
-
-  .main__descr {
-    margin-bottom: 1rem;
+    padding: 10px 0;
   }
 
   .design__description-text {
