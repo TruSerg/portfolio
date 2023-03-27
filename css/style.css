@@ -311,7 +311,6 @@ body._lock {
 
 .white .main__scroll svg {
   fill: #575454;
-  filter: sepia(70%);
   width: 3rem;
   transition: fill 0.3s ease;
 }
@@ -328,7 +327,7 @@ body._lock {
 }
 
 .white .offer__photo {
-  filter: sepia(70%);
+  filter: sepia(80%);
 }
 
 .offer__text {
@@ -397,7 +396,6 @@ body._lock {
 
 .white .cv__link svg {
   color: #575454;
-  filter: sepia(70%);
 }
 
 .git__link svg {
@@ -413,7 +411,6 @@ body._lock {
 
 .white .git__link svg {
   color: #575454;
-  filter: sepia(70%);
 }
 
 .in__link svg {
@@ -429,7 +426,6 @@ body._lock {
 
 .white .in__link svg {
   color: #575454;
-  filter: sepia(70%);
   fill: rgb(238, 221, 221);
 }
 
@@ -445,7 +441,6 @@ body._lock {
 
 .white .timer {
   color: #575454;
-  filter: sepia(70%);
 }
 
 .timer__text {
