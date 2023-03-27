@@ -11,21 +11,15 @@
       rel="stylesheet"
     />
 	 <link rel="stylesheet" href="./css/normalize.css" />
-    <link
-      rel="stylesheet"
-      href="./css/choices.min.css"
-    />
 	 <link rel="icon" href="./img/coding-favicon.png" type="image/png">
     <link rel="stylesheet" href="./css/style.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
-	 <script src="./js/choices.min.js" defer></script>
     <script src="./js/tabs.js" defer></script>
     <script src="./js/menu.js" defer></script>
     <script src="./js/timer.js" defer></script>
     <script src="./js/scroll.js" defer></script>
 	 <script src="./js/changeThemes.js" defer></script>
 	 <script src="./lib/bundle.min.js" defer></script>
-	 <!-- <script src="./js/news.js" defer></script> -->
   </head>
 
   <body class="white">
@@ -45,9 +39,6 @@
                 <li class="menu-list__item">
                   <a href="#portfolio" class="menu-list__link">Portfolio</a>
                 </li>
-					 <!-- <li class="menu-list__item">
-                  <a href="#news" class="menu-list__link">News</a>
-                </li> -->
                 <li class="menu-list__item">
                   <a href="#timer" class="menu-list__link">Timer</a>
                 </li>              
@@ -212,6 +203,12 @@
           </div>
 			 <div class="skills__item">
             <svg>
+              <use xlink:href="./imgs/sprite.svg#i-ts" />
+            </svg>
+            <span class="skills__text">TYPECRIPT</span>
+          </div>
+			 <div class="skills__item">
+            <svg>
               <use xlink:href="./imgs/sprite.svg#i-webpack" />
             </svg>
             <span class="skills__text">WEBPACK</span>
@@ -263,7 +260,7 @@
         <div class="design-wrapper">
           <div class="design-block">
             <img
-              src="img/example/react-store-min.png"
+              src="img/example/dummy-store-min.png"
               alt="A 200"
               class="feature__img design-block__img"
               data-tabs-field="interior"
@@ -302,11 +299,11 @@
               <ul>
                 <li class="design__descr" data-tabs-field="interior">
                   <p class="design__description-text">
-                    The applications are developed to use JavaScript, Vue, React, Redux, 
+                    The applications are developed to use JavaScript, TypeScript, Vue, React, Redux, 
                     Redux-toolkit, Redux-Saga, Material-Ui, Scss. My best work is "React online-store".
 						  There are four pages in the app such as products page, products category page, product details page and cart.
 						  This app is very quality and beautiful.
-						  I have used React, Redux-toolkit, React-router-dom, Material-Ui, Scss, Grid to develop the application.						   
+						  I have used React, Redux-toolkit, TypeScript, JavaScript, React-router-dom, Material-Ui, Scss, Grid to develop the application.						   
                   </p>
                 </li>
                 <li class="design__descr hidden" data-tabs-field="body">
@@ -325,6 +322,26 @@
             <h2 class="section__title">Works</h2>
             <div class="works" data-tabs-field="interior">
 					<div class="work-wrap">
+					<a
+					  href="https://dummy-react-redux-typescript-store.vercel.app"
+					  class="work work--react-dummy-store"
+					  target="_blank"
+					>
+					  <figure class="work__img-wrap">
+						 <img
+							class="work__img"
+							src="./imgs/dummy-store-min.png"
+							alt="git-user"
+						 />
+					  </figure>
+					  <span class="work__content">
+						 <div class="work__tech">
+							<span class="work__description">Technology:</span> REACT / REDUX-TOOLKIT / TYPESCRIPT / JS / MATERIAL-UI / SCSS
+						 </div>
+					  </span>
+					</a>
+				 </div>
+				 <div class="work-wrap">
 					<a
 					  href="https://react-redux-store-jet.vercel.app"
 					  class="work work--react-store"
@@ -737,41 +754,6 @@
       </div>
     </section>
     <!-- design (end) -->
-
-	 <!-- news (start) -->
-	 <!-- <section class="section" id="news">
-      <div class="container flex-center">
-			<h2 class="section__title section__title--news">News</h2>
-        <form class="form-search">
-          <select name="country" class="js-choise">
-            <option value="">Choose the country</option>
-            <option value="ru">Russia</option>
-            <option value="ua">Ukrain</option>
-            <option value="us">USA</option>
-            <option value="de">Germany</option>
-            <option value="cz">Czech</option>
-            <option value="pl">Poland</option>
-            <option value="lv">Lithuania</option>
-            <option value="lt">Latvia</option>
-          </select>
-        </form>
-      </div>
-		<div class="title-wrapper">
-			<div class="container">
-			  <h1 class="visually-hidden">Only fresh news</h1>
-			  <h2 class="title hide">
-				 Your search "IT news" found 6 results
-			  </h2>
-			  <div class="news">
-				 <h2 class="visually-hidden">News list</h2>
-				 <div class="container">
-					<ul class="news-list"></ul>
-				 </div>
-			  </div>
-			</div>
-		 </div>
-    </section>   -->
-	 <!-- news (end) -->
 
     <!-- /.timer start-->
     <section class="timer" id="timer">
