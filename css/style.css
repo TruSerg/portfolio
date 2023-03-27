@@ -25,7 +25,7 @@ body._lock {
 }
 
 .white .header {
-  background-color: #4cb1ca;
+  background-color: #1a8ec1;
 }
 
 .black .header {
@@ -234,7 +234,7 @@ body._lock {
 }
 
 .white .section__title {
-  color: #4cb1ca;
+  color: #1a8ec1;
 }
 
 .section__text {
@@ -315,7 +315,7 @@ body._lock {
 }
 
 .white .main__scroll svg:hover {
-  fill: #7db122;
+  fill: #50af31;
 }
 
 .offer__photo {
@@ -367,7 +367,7 @@ body._lock {
 
 .white .about__in-text {
   border-bottom: 1px solid #575454;
-  color: #7db122;
+  color: #50af31;
   transition: all 0.5s;
 }
 
@@ -379,7 +379,7 @@ body._lock {
 
 .white .about__in:hover .about__in-text,
 .white .about__in:hover svg {
-  color: #7db122;
+  color: #50af31;
 }
 
 .cv__link svg {
@@ -453,7 +453,7 @@ body._lock {
 }
 
 .white .timer__text {
-  color: #7db122;
+  color: #50af31;
 }
 
 .timer__time {
@@ -527,6 +527,7 @@ body._lock {
 
 .white .skills__item svg {
   fill: #575454;
+  filter: sepia(70%);
 }
 
 .skills__text {
@@ -556,6 +557,7 @@ body._lock {
 .white .skills__text {
   color: #575454;
   background-color: transparent;
+  filter: sepia(70%);
 }
 
 .skills__item:hover .skills__text {
@@ -597,7 +599,7 @@ body._lock {
 }
 
 .white .design-list__item_active {
-  color: #7db122;
+  color: #50af31;
   border-bottom: 1px solid #4cb1ca;
 }
 
@@ -720,7 +722,7 @@ body._lock {
 }
 
 .white .work__description {
-  color: #7db122;
+  color: #50af31;
 }
 
 .black .work__content {
