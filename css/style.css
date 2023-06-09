@@ -3,6 +3,11 @@ a {
   color: inherit;
 }
 
+.container {
+  max-width: 1620px;
+  padding: 0 10px;
+}
+
 body._lock {
   overflow: hidden;
 }
@@ -879,6 +884,11 @@ body._lock {
 /* === MEDIA =========================================================== */
 
 @media (max-width: 1200px) {
+  .container {
+    max-width: 1620px;
+    padding: 0 10px;
+  }
+
   .offer__photo {
     max-width: 30rem;
     min-height: 20rem;
@@ -910,6 +920,11 @@ body._lock {
 }
 
 @media (max-width: 990px) {
+  .container {
+    max-width: 1620px;
+    padding: 0 10px;
+  }
+
   .offer__photo {
     max-width: 40rem;
     min-height: 0;
@@ -946,6 +961,11 @@ body._lock {
 }
 
 @media (max-width: 899.75px) {
+  .container {
+    max-width: 1620px;
+    padding: 0 10px;
+  }
+
   .skills__item svg {
     max-width: 45%;
   }
@@ -964,7 +984,12 @@ body._lock {
 }
 
 @media (max-width: 767px) {
-  .body.lock {
+  .container {
+    max-width: 1620px;
+    padding: 0 10px;
+  }
+
+  body.lock {
     overflow: hidden;
   }
 
@@ -1125,6 +1150,15 @@ body._lock {
 }
 
 @media (max-width: 560.75px) {
+  .container {
+    max-width: 1620px;
+    padding: 0 10px;
+  }
+
+  .menu {
+    padding: 40px 30px 30px 20px;
+  }
+
   .top {
     padding: 30px 0 10px 0;
   }
