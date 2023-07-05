@@ -940,6 +940,10 @@ body._lock {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .skills__item {
+    margin: 0 auto;
+  }
+
   .works {
     max-width: 100%;
     margin: 0 auto;
