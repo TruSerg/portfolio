@@ -1,5 +1,5 @@
 const scroll = () => {
-  const links =       document.querySelectorAll(".menu-list__link");
+  const links = document.querySelectorAll(".menu-list__link");
   const mainScroll = document.querySelector(".main__scroll");
 
   const allLinks = [...links, mainScroll];

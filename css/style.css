@@ -1221,9 +1221,14 @@ body._lock {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 120px;
+    height: 130px;
     margin: 0 auto;
     padding: 1rem;
+  }
+
+  .skills__text {
+    font-size: 0.9rem;
+    bottom: -2px;
   }
 
   .skills__item:last-child {
@@ -1252,10 +1257,6 @@ body._lock {
 
   .section__text {
     font-size: 1.2rem;
-  }
-
-  .skills__text {
-    font-size: 1.3rem;
   }
 
   .design__description-text {
